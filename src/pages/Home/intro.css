@@ -1,0 +1,111 @@
+#intro {
+    width: 100vw;
+    max-width: 75rem;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+}
+
+.introContent {
+    margin-top: 90px;
+    width: 100vw;
+    max-width: 75rem;
+    padding: 2rem;
+    font-size: 3rem;
+    font-weight: 600;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.hello {
+    font-size: 1.75rem;
+    font-weight: 100;
+}
+
+.dark .hello {
+    color: whitesmoke;
+}
+
+.dark .I {
+    color: whitesmoke;
+}
+
+.dark .introRole {
+    color: whitesmoke;
+}
+
+.introName {
+    color: #FFD700;
+    animation: colorChange 2s linear infinite alternate;
+}
+
+@keyframes colorChange {
+    0% {
+        color: #FFD700; /* Initial color */
+        transform: translateY(0); /* Initial position */
+    }
+    50% {
+        color: #ff9900; /* Color midway */
+        transform: translateY(-10px); /* Position midway */
+    }
+    100% {
+        color: #FFD700; /* Final color */
+        transform: translateY(0); /* Final position */
+    }
+}
+
+.introRole {
+    opacity: 0; /* Initially hide the text */
+    animation: fadeInOut 4s ease-in-out forwards; /* Animation */
+}
+
+@keyframes fadeInOut {
+    0% {
+        opacity: 0; /* Fade out */
+    }
+    50%, 100%  {
+        opacity: 1; /* Fade in */
+    }
+}
+
+
+.introPara {
+    margin-top: 15px;
+    font-size: medium;
+    font-weight: 400;
+    max-width: 75rem;
+}
+
+.dark .introPara {
+    color: whitesmoke;
+}
+
+.downloadBtn {
+    font-size: 16px;
+    margin-left: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 15px;
+    border: 2px solid black;
+    border-radius: 30px;
+    transition: background-color 0.5s ease;
+}
+
+.downloadBtn:hover {
+    background-color: #FFD700;
+}
+
+.dark .downloadBtn {
+    border: 2px solid whitesmoke;
+    color: whitesmoke;
+}
+
+.downloadBtnImg {
+    object-fit: cover;
+    height: 2rem;
+    width: 2rem;
+    display: flex;
+    padding: 0.5rem;
+}
