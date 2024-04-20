@@ -1,6 +1,6 @@
 # My Portfolio Website
 
-Welcome to my portfolio! This project is built using React.js and showcases my skills, projects, and experience.
+Welcome to my portfolio! This project is built using React.js and showcases my intro, skills, projects and contact details.
 
 ## Table of Contents
 
