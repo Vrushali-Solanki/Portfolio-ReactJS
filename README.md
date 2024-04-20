@@ -9,8 +9,6 @@ Welcome to my portfolio! This project is built using React.js and showcases my s
 - [Installation](#installation)
 - [Usage](#usage)
 - [Technologies Used](#technologies-used)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Demo
 
