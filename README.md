@@ -19,6 +19,7 @@ You can see a live demo of my portfolio [here](https://vrushalisolanki.netlify.a
 - **Projects Showcase:** I have showcase my projects with descriptions and code links.
 - **Skills:** Highlighted my skills and technologies I am proficient in.
 - **Contact Information:** Provided ways to get in touch with me.
+- **Dark Mode and Light Mode:** You can view the website in both light and dark mode.
 
 ## Installation
 
