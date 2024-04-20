@@ -28,6 +28,7 @@ To run this project locally, follow these steps:
 1. Clone the repository: git clone [https://github.com/your-username/your-portfolio.git](https://github.com/Vrushali-Solanki/Portfolio-ReactJS.git)
 2. Install dependencies
 3. Run the code: npm start
+
 This will run the app in the development mode.
 Open http://localhost:3000 to view it in your browser.
 
